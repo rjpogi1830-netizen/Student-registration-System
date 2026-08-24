@@ -6,7 +6,7 @@ A modern, secure student registration and account management web application
 built as a comprehensive College Group Project.
 
 LIVE DEMO:
-- Live Production Website: https://student-registration-system-j2e6.onrender.com/
+- Live Production Website: https://student-registration-system-2pkr.onrender.com/
 - GitHub Repository:       https://github.com/rjpogi1830-netizen/Student-registration-System
 
 PROJECT GROUP MEMBERS:
@@ -73,7 +73,7 @@ PROJECT GROUP MEMBERS:
    - Configured Runtime: Docker
    - Added Environment Variables:
      DB_HOST, DB_PORT, DB_USER, DB_PASS, DB_NAME
-   - Live URL: https://student-registration-system-j2e6.onrender.com/
+   - Live URL: https://student-registration-system-2pkr.onrender.com/
    - Render automatically builds and deploys on every push to main.
 
 ========================================================================
@@ -86,6 +86,6 @@ PROJECT GROUP MEMBERS:
 
 ========================================================================
 GitHub Repository: https://github.com/rjpogi1830-netizen/Student-registration-System
-Live Website URL:  https://student-registration-system-j2e6.onrender.com/
+Live Website URL:  https://student-registration-system-2pkr.onrender.com/
 Branch: main
 ========================================================================

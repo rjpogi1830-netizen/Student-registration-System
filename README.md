@@ -8,7 +8,7 @@ A modern, secure, and production-ready **Student Registration & Portal Managemen
 
 | Resource | URL |
 |---|---|
-| **🚀 Live Production Website** | **[https://student-registration-system-j2e6.onrender.com/](https://student-registration-system-j2e6.onrender.com/)** |
+| **🚀 Live Production Website** | **[https://student-registration-system-2pkr.onrender.com/](https://student-registration-system-2pkr.onrender.com/)** |
 | **📦 GitHub Repository** | **[https://github.com/rjpogi1830-netizen/Student-registration-System](https://github.com/rjpogi1830-netizen/Student-registration-System)** |
 
 ---
@@ -176,7 +176,7 @@ EXPOSE 80
    - `DB_PASS`: Aiven Password
    - `DB_NAME`: Aiven Database Name
 4. Render builds the Docker container and assigns a live public SSL URL:
-   **`https://student-registration-system-j2e6.onrender.com/`**
+   **`https://student-registration-system-2pkr.onrender.com/`**
 
 ---
 
