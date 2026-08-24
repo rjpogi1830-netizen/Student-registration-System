@@ -5,6 +5,10 @@ STUDENT REGISTRATION SYSTEM — PORTAL 2.0
 A modern, secure student registration and account management web application
 built as a comprehensive College Group Project.
 
+LIVE DEMO:
+- Live Production Website: https://student-registration-system-j2e6.onrender.com/
+- Database Setup / Check:  https://student-registration-system-j2e6.onrender.com/setup_database.php
+
 PROJECT GROUP MEMBERS:
 - Francis Tabuzo Jr.       (Full-Stack Development & Architecture)
 - Arus Sta Rosa            (Frontend Design System & UI/UX)
@@ -70,6 +74,7 @@ PROJECT GROUP MEMBERS:
    - Configured Runtime: Docker
    - Added Environment Variables:
      DB_HOST, DB_PORT, DB_USER, DB_PASS, DB_NAME
+   - Live URL: https://student-registration-system-j2e6.onrender.com/
    - Render automatically builds and deploys on every push to main.
 
 4. Database Migration:
@@ -86,5 +91,6 @@ PROJECT GROUP MEMBERS:
 
 ========================================================================
 GitHub Repository: https://github.com/rjpogi1830-netizen/Student-registration-System
+Live Website URL:  https://student-registration-system-j2e6.onrender.com/
 Branch: main
 ========================================================================

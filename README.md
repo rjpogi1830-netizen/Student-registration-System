@@ -4,6 +4,16 @@ A modern, secure, and production-ready **Student Registration & Portal Managemen
 
 ---
 
+## 🌐 Live Demo & Deployment
+
+| Resource | URL |
+|---|---|
+| **🚀 Live Production Website** | **[https://student-registration-system-j2e6.onrender.com/](https://student-registration-system-j2e6.onrender.com/)** |
+| **🛠️ Database Setup / Migration** | **[https://student-registration-system-j2e6.onrender.com/setup_database.php](https://student-registration-system-j2e6.onrender.com/setup_database.php)** |
+| **📦 GitHub Repository** | **[https://github.com/rjpogi1830-netizen/Student-registration-System](https://github.com/rjpogi1830-netizen/Student-registration-System)** |
+
+---
+
 ## 👥 Project Group Members
 
 | Name | Role / Contribution |
@@ -172,10 +182,11 @@ EXPOSE 80
    - `DB_USER`: Aiven User
    - `DB_PASS`: Aiven Password
    - `DB_NAME`: Aiven Database Name
-4. Render builds the Docker container and assigns a live public SSL URL (e.g. `https://student-registration-system.onrender.com`).
+4. Render builds the Docker container and assigns a live public SSL URL:
+   **`https://student-registration-system-j2e6.onrender.com/`**
 
 ### Step 4: Automatic Schema Execution
-Visiting `https://<YOUR-APP>.onrender.com/setup_database.php` automatically verifies the cloud database connection and creates the `users` table on Aiven.
+Visiting `https://student-registration-system-j2e6.onrender.com/setup_database.php` automatically verifies the cloud database connection and creates the `users` table on Aiven.
 
 ---
 
