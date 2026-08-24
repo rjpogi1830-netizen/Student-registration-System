@@ -9,19 +9,16 @@ A modern, secure, and production-ready **Student Registration & Portal Managemen
 | Resource | URL |
 |---|---|
 | **🚀 Live Production Website** | **[https://student-registration-system-j2e6.onrender.com/](https://student-registration-system-j2e6.onrender.com/)** |
-| **🛠️ Database Setup / Migration** | **[https://student-registration-system-j2e6.onrender.com/setup_database.php](https://student-registration-system-j2e6.onrender.com/setup_database.php)** |
 | **📦 GitHub Repository** | **[https://github.com/rjpogi1830-netizen/Student-registration-System](https://github.com/rjpogi1830-netizen/Student-registration-System)** |
 
 ---
 
 ## 👥 Project Group Members
 
-| Name | Role / Contribution |
-|---|---|
-| **Francis Tabuzo Jr.** | Full-Stack Development & Architecture |
-| **Arus Sta Rosa** | Frontend Design System & UI/UX |
-| **Rohn Bon** | Database Engineering & SQL Schemas |
-| **Dave Emmanuel Hore** | Security, Testing & Documentation |
+- **Francis Tabuzo Jr.**
+- **Arus Sta Rosa**
+- **Rohn Bon**
+- **Dave Emmanuel Hore**
 
 ---
 
@@ -106,11 +103,7 @@ Unlike generic school assignments, this application is built with a **production
   - Immediately refreshes active PHP session variables (`$_SESSION['fullname']`, `$_SESSION['email']`).
   - Displays dismissible success / error alert banners.
 
-### 6. Cloud Database Migration & Verification (`setup_database.php`)
-- Dedicated visual verification utility that tests the MySQL connection and automatically executes `CREATE TABLE IF NOT EXISTS users (...)`.
-- Displays real-time database host, database name, port, charset, and table status.
-
-### 7. Secure Logout (`logout.php`)
+### 6. Secure Logout (`logout.php`)
 - Clears session variables with `session_unset()`, destroys the session with `session_destroy()`, and redirects cleanly to `index.php`.
 
 ---
@@ -185,9 +178,6 @@ EXPOSE 80
 4. Render builds the Docker container and assigns a live public SSL URL:
    **`https://student-registration-system-j2e6.onrender.com/`**
 
-### Step 4: Automatic Schema Execution
-Visiting `https://student-registration-system-j2e6.onrender.com/setup_database.php` automatically verifies the cloud database connection and creates the `users` table on Aiven.
-
 ---
 
 ## 💻 Local Installation Guide (XAMPP)
@@ -198,7 +188,7 @@ Visiting `https://student-registration-system-j2e6.onrender.com/setup_database.p
    ```
 2. Open the **XAMPP Control Panel** and start **Apache** and **MySQL**.
 3. Open phpMyAdmin at `http://localhost/phpmyadmin/`.
-4. Import `database.sql` (or simply visit `http://localhost/student_registration_system/setup_database.php` to auto-create the table).
+4. Import `database.sql`.
 5. Open the website in your browser:
    ```
    http://localhost/student_registration_system/
@@ -227,7 +217,6 @@ student_registration_system/
 ├── login.php                 ← Split-screen student sign-in form
 ├── dashboard.php             ← Student portal dashboard with sidebar navigation
 ├── profile.php               ← Student profile view and live MySQL editor
-├── setup_database.php        ← Database migration & verification tool
 ├── logout.php                ← Secure session destruction handler
 ├── .gitignore                ← Git ignore rules (OS, IDE, and temporary files)
 ├── README.md                 ← Markdown documentation for GitHub

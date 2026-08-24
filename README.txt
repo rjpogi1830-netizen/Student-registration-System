@@ -7,13 +7,13 @@ built as a comprehensive College Group Project.
 
 LIVE DEMO:
 - Live Production Website: https://student-registration-system-j2e6.onrender.com/
-- Database Setup / Check:  https://student-registration-system-j2e6.onrender.com/setup_database.php
+- GitHub Repository:       https://github.com/rjpogi1830-netizen/Student-registration-System
 
 PROJECT GROUP MEMBERS:
-- Francis Tabuzo Jr.       (Full-Stack Development & Architecture)
-- Arus Sta Rosa            (Frontend Design System & UI/UX)
-- Rohn Bon                 (Database Engineering & SQL Schemas)
-- Dave Emmanuel Hore       (Security, Testing & Documentation)
+- Francis Tabuzo Jr.
+- Arus Sta Rosa
+- Rohn Bon
+- Dave Emmanuel Hore
 
 ========================================================================
 1. COMPLETE TECH STACK
@@ -47,7 +47,6 @@ PROJECT GROUP MEMBERS:
                        Account ID (#ACC-0000{id}), Full Name, Email, Registration Date.
 - profile.php        → Student profile details card + authentic MySQL edit form
                        allowing students to update their name and email directly.
-- setup_database.php → Cloud database migration & verification utility.
 - logout.php         → Secure session unset, destroy, and redirection handler.
 
 ========================================================================
@@ -77,16 +76,12 @@ PROJECT GROUP MEMBERS:
    - Live URL: https://student-registration-system-j2e6.onrender.com/
    - Render automatically builds and deploys on every push to main.
 
-4. Database Migration:
-   - Visiting /setup_database.php automatically verifies the connection and creates
-     the 'users' table on Aiven.
-
 ========================================================================
 5. LOCAL INSTALLATION (XAMPP)
 ========================================================================
 1. Place project in: C:\xampp\htdocs\student_registration_system\
 2. Start Apache and MySQL in XAMPP Control Panel.
-3. Import database.sql in phpMyAdmin or visit http://localhost/student_registration_system/setup_database.php
+3. Import database.sql in phpMyAdmin.
 4. Access website at: http://localhost/student_registration_system/
 
 ========================================================================
